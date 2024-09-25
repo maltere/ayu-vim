@@ -32,7 +32,7 @@ let s:palette.accent    = {'dark': "#F29718",  'light': "#FF6A00",  'mirage': "#
 let s:palette.panel     = {'dark': "#14191F",  'light': "#FFFFFF",  'mirage': "#272D38"}
 let s:palette.guide     = {'dark': "#424F5D",  'light': "#D9D8D7",  'mirage': "#3D4751"}
 let s:palette.line      = {'dark': "#151A1E",  'light': "#F3F3F3",  'mirage': "#242B38"}
-let s:palette.selection = {'dark': "#253340",  'light': "#F0EEE4",  'mirage': "#343F4C"}
+let s:palette.selection = {'dark': "#597C9B",  'light': "#F0EEE4",  'mirage': "#343F4C"}
 let s:palette.fg        = {'dark': "#E6E1CF",  'light': "#5C6773",  'mirage': "#D9D7CE"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99",  'mirage': "#607080"}
 
@@ -99,7 +99,7 @@ exe "hi! ErrorMsg"      .s:fg_fg          .s:bg_error       .s:fmt_stnd
 exe "hi! VertSplit"     .s:fg_bg          .s:bg_none        .s:fmt_none
 exe "hi! Folded"        .s:fg_fg_idle     .s:bg_panel       .s:fmt_none
 exe "hi! FoldColumn"    .s:fg_none        .s:bg_panel       .s:fmt_none
-exe "hi! SignColumn"    .s:fg_none        .s:bg_panel       .s:fmt_none
+exe "hi! SignColumn"    .s:fg_none        .s:bg_none        .s:fmt_none
 "   Incsearch"
 
 exe "hi! MatchParen"    .s:fg_fg          .s:bg_bg          .s:fmt_undr
